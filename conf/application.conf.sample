@@ -1,0 +1,34 @@
+# Secret key
+# ~~~~~
+# The secret key is used to secure cryptographics functions.
+# If you deploy your application to several instances be sure to use the same key!
+application.secret="%APPLICATION_SECRET%"
+
+# The application languages
+application.langs="en"
+
+# Global object class
+# application.global=Global
+
+# Router
+# application.router=my.application.Routes
+
+# Slick configuration
+
+slick.dbs.default.driver="slick.driver.MySQLDriver$"
+slick.dbs.default.db.driver="com.mysql.jdbc.Driver"
+slick.dbs.default.db.url="jdbc:mysql://localhost/lookup_db"
+slick.dbs.default.db.user="root"
+
+
+# Evolutions
+# ~~~~~
+# You can disable evolutions if needed
+# evolutionplugin=disabled
+
+# Custom variables
+GCM_URL="http://localhost:8090/gcm/send/"
+
+# For dependency injecting actors
+play.modules.enabled+="modules.ActorModule"
+
