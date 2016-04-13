@@ -1,3 +1,6 @@
+# THIS IS A SAMPLE OF THE CONFIGURATION FILE REQUIRED BY THE APPLICATION.
+# SET THE CORRECT VALUES AND RENAME TO application.conf BEFORE DEPLOYING THE APPLICATION
+
 # Secret key
 # ~~~~~
 # The secret key is used to secure cryptographics functions.
